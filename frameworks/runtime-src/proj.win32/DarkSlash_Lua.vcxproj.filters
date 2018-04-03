@@ -67,6 +67,9 @@
     <Filter Include="Classes\reader\ui">
       <UniqueIdentifier>{63484d8e-a6f5-45d1-89c2-bfb440010468}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Classes\protobuf">
+      <UniqueIdentifier>{2fecb051-7e6e-48e0-8b2d-693f4a0160f3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h">
@@ -272,6 +275,9 @@
     <ClInclude Include="..\Classes\HclcData.h">
       <Filter>Classes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\protobuf\addressbook.pb.h">
+      <Filter>Classes\protobuf</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
@@ -403,6 +409,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\HclcData.cpp">
       <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\protobuf\addressbook.pb.cc">
+      <Filter>Classes\protobuf</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

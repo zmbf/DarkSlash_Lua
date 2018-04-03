@@ -196,6 +196,7 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\HclcData.h" />
+    <ClInclude Include="..\Classes\protobuf\addressbook.pb.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimateClip.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimationClip.h" />
     <ClInclude Include="..\Classes\reader\animation\AnimationClipProperties.h" />
@@ -267,6 +268,7 @@ xcopy "$(ProjectDir)..\..\..\src" "$(LocalDebuggerWorkingDirectory)\src" /D /E /
   <ItemGroup>
     <ClCompile Include="..\Classes\AppDelegate.cpp" />
     <ClCompile Include="..\Classes\HclcData.cpp" />
+    <ClCompile Include="..\Classes\protobuf\addressbook.pb.cc" />
     <ClCompile Include="..\Classes\reader\animation\AnimateClip.cpp" />
     <ClCompile Include="..\Classes\reader\animation\AnimationClip.cpp" />
     <ClCompile Include="..\Classes\reader\animation\AnimationManager.cpp" />
